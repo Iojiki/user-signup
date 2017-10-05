@@ -1,9 +1,5 @@
 {% extends "base.html" %}
 
 {% block content %}
-{% if error %}
-  <p class='error'>{{error}}</p>
-{% else %}
-{{username}}
-{% endif %}
+Welcome, {{username}}!
 {% endblock %}
